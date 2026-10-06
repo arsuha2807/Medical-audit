@@ -1,0 +1,55 @@
+﻿# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519
+id_ed25519.pub
+id_rsa
+id_rsa.pub
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Databases and documents
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.pdf
+uploads/
+
+# Models and runtime
+ollama_data/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.log
+
+# Laravel runtime
+**/storage/logs/**
+**/storage/framework/cache/**
+**/storage/framework/sessions/**
+**/storage/framework/views/**
+**/storage/app/private/**
+**/public/storage
+**/public/hot
+**/bootstrap/cache/*.php
+
+# Editor and system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
